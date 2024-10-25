@@ -729,11 +729,12 @@ a {
   .b-not-box {
     position: absolute;
     width: 100%;
-    bottom: 25px;
+    bottom: -29px;
     right: 0;
     padding-left: 178px;
     text-align: right;
     padding-right: 32px;
+		z-index: -1;
   }
   .b-not-box::before {
     width: 100%;
